@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>切らない・痛みが少ない 巻き爪ケア チャージ｜吉祥寺駅 北口 徒歩5分</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FFF8EE;
+    --surface:#ffffff;
+    --pine:#B8480C;
+    --pine-soft:#D86A12;
+    --sage:#FFE7C2;
+    --sage-deep:#F4C271;
+    --coral:#F2811C;
+    --coral-soft:#FFEAD2;
+    --ink:#2E2722;
+    --ink-soft:#6B5F54;
+    --line:#06C755;
+    --line-deep:#05A847;
+    --radius:22px;
+    --radius-sm:14px;
+    --shadow:0 18px 40px -22px rgba(184,72,12,.4);
+    --shadow-soft:0 10px 30px -18px rgba(184,72,12,.32);
+    --font-display:"Shippori Mincho", serif;
+    --font-body:"Noto Sans JP", sans-serif;
+    --font-num:"Noto Sans JP", sans-serif;
+    --maxw:1080px;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--font-body);color:var(--ink);background:var(--bg);
+    line-height:1.85;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  }
+  h1,h2,h3,.disp{font-family:var(--font-display);letter-spacing:.01em;line-height:1.45}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  section{padding:74px 0}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--font-display);font-weight:700;font-size:.82rem;
+    color:var(--pine-soft);background:var(--sage);
+    padding:7px 16px;border-radius:999px;letter-spacing:.04em;margin-bottom:18px;
+  }
+  .eyebrow.coral{color:#b65a40;background:var(--coral-soft)}
+  .sec-title{font-size:clamp(1.5rem,4.4vw,2.25rem);font-weight:900;color:var(--pine);margin-bottom:14px}
+  .sec-title .hl{color:var(--coral)}
+  .lead{font-size:1rem;color:var(--ink-soft);max-width:660px}
+  .center{text-align:center}
+  .center .lead{margin-left:auto;margin-right:auto}
+  .disclaimer{font-size:.74rem;color:var(--ink-soft);opacity:.85;line-height:1.7}
+
+  header.site{position:sticky;top:0;z-index:60;background:rgba(255,248,238,.85);backdrop-filter:blur(10px);border-bottom:1px solid rgba(184,72,12,.1)}
+  .site .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .brand{font-family:var(--font-display);font-weight:900;color:var(--pine);font-size:1.12rem;display:flex;align-items:center;gap:9px}
+  .brand .dot{width:11px;height:11px;border-radius:50%;background:var(--coral)}
+  .nav-cta{display:none}
+  @media(min-width:780px){.nav-cta{display:inline-flex}}
+
+  .btn-line{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    background:var(--line);color:#fff;font-family:var(--font-display);font-weight:700;
+    padding:15px 26px;border-radius:999px;text-decoration:none;font-size:1.02rem;
+    box-shadow:0 12px 26px -12px rgba(6,199,85,.7);
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;border:none;cursor:pointer;
+  }
+  .btn-line:hover{background:var(--line-deep);transform:translateY(-2px);box-shadow:0 16px 30px -12px rgba(6,199,85,.75)}
+  .btn-line .ico{width:22px;height:22px;flex:none}
+  .btn-line.sm{padding:10px 18px;font-size:.9rem}
+  .btn-sub{display:block;text-align:center;font-size:.82rem;color:var(--ink-soft);margin-top:10px}
+
+  .hero{position:relative;padding:60px 0 84px;overflow:hidden}
+  .blob{position:absolute;border-radius:50%;filter:blur(8px);opacity:.55;z-index:0}
+  .blob.a{width:430px;height:430px;background:var(--sage);top:-150px;right:-120px;opacity:.75}
+  .blob.b{width:320px;height:320px;background:var(--coral-soft);bottom:-120px;left:-110px}
+  .blob.c{width:180px;height:180px;background:var(--sage-deep);top:120px;left:-60px;opacity:.45}
+  .hero .wrap{position:relative;z-index:2}
+  .hero-grid{display:grid;gap:30px;align-items:center}
+  @media(min-width:880px){.hero-grid{grid-template-columns:1.05fr .95fr;gap:48px}}
+  .hero h1{font-size:clamp(2.05rem,6.2vw,3.3rem);font-weight:900;color:var(--pine);margin:6px 0 18px;letter-spacing:.005em}
+  .hero h1 .hl{color:var(--coral);position:relative;white-space:nowrap}
+  .hero h1 .hl::after{content:"";position:absolute;left:-2%;right:-2%;bottom:6px;height:11px;background:var(--coral-soft);z-index:-1;border-radius:6px}
+  .hero p.sub{font-size:1.04rem;color:var(--ink);max-width:520px;margin-bottom:26px}
+  .hero p.sub b{color:var(--pine);font-weight:700}
+  .trust-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  .trust-chip{display:inline-flex;align-items:center;gap:7px;background:var(--surface);border:1px solid rgba(184,72,12,.12);border-radius:999px;padding:8px 15px;font-size:.82rem;font-weight:500;color:var(--pine);box-shadow:var(--shadow-soft)}
+  .trust-chip svg{width:15px;height:15px;color:var(--coral)}
+  .hero-card{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;position:relative}
+  .hero-card .ba-label{font-family:var(--font-display);font-weight:700;color:var(--pine-soft);font-size:.78rem;margin-bottom:10px;display:flex;align-items:center;gap:7px}
+  .ba-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .ba-img{aspect-ratio:1/1;border-radius:var(--radius-sm);background:linear-gradient(135deg,var(--sage) 0%, #FFF4E6 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--pine-soft);text-align:center;border:1px dashed rgba(184,72,12,.28);position:relative}
+  .ba-img svg{width:32px;height:32px;opacity:.5}
+  .ba-img span{font-size:.72rem;font-weight:500}
+  .ba-tag{position:absolute;top:9px;left:9px;background:var(--pine);color:#fff;font-size:.66rem;font-weight:700;font-family:var(--font-num);padding:3px 10px;border-radius:999px}
+  .ba-tag.after{background:var(--coral)}
+  .hero-card .arrow{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff;border-radius:50%;width:34px;height:34px;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-soft);z-index:3;color:var(--coral);font-weight:900}
+  .hero-card .note{margin-top:11px;font-size:.7rem;color:var(--ink-soft);text-align:center;opacity:.85}
+
+  .worry{background:var(--surface)}
+  .worry-list{display:grid;gap:14px;margin-top:30px}
+  @media(min-width:720px){.worry-list{grid-template-columns:1fr 1fr}}
+  .worry-item{display:flex;gap:14px;align-items:flex-start;background:var(--bg);border-radius:var(--radius-sm);padding:18px 20px;border:1px solid rgba(184,72,12,.08)}
+  .worry-item .ck{flex:none;width:30px;height:30px;border-radius:50%;background:var(--coral-soft);color:var(--coral);display:flex;align-items:center;justify-content:center;font-weight:900;font-family:var(--font-display)}
+  .worry-item p{font-size:.96rem;font-weight:500}
+  .worry-note{margin-top:26px;text-align:center;font-family:var(--font-display);font-weight:700;color:var(--pine);font-size:1.05rem}
+
+  .timing{background:linear-gradient(180deg,var(--sage) 0%, #FFF1DD 100%)}
+  .timing .lead{color:var(--pine-soft)}
+  .stage-row{display:grid;gap:14px;margin-top:36px}
+  @media(min-width:760px){.stage-row{grid-template-columns:repeat(3,1fr);gap:16px}}
+  .stage{background:var(--surface);border-radius:var(--radius);padding:24px 20px;text-align:center;box-shadow:var(--shadow-soft)}
+  .stage .lvl{font-family:var(--font-display);font-weight:900;font-size:1.15rem;color:var(--pine);margin-bottom:6px}
+  .stage.s2 .lvl{color:var(--pine-soft)}
+  .stage.s3 .lvl{color:var(--coral)}
+  .stage .bar{height:8px;border-radius:999px;background:var(--sage-deep);margin:12px auto 14px}
+  .stage.s1 .bar{width:34%}
+  .stage.s2 .bar{width:64%;background:#cf9d6d}
+  .stage.s3 .bar{width:100%;background:var(--coral)}
+  .stage .cost{font-size:.86rem;color:var(--ink-soft)}
+  .stage .cost b{color:var(--ink);font-weight:700}
+  .timing-cta{margin-top:30px;text-align:center}
+
+  .third .opt-grid{display:grid;gap:16px;margin-top:34px}
+  @media(min-width:820px){.third .opt-grid{grid-template-columns:repeat(3,1fr)}}
+  .opt{background:var(--surface);border-radius:var(--radius);padding:26px 22px;border:1px solid rgba(184,72,12,.1);position:relative}
+  .opt.pick{border:2px solid var(--coral);box-shadow:var(--shadow)}
+  .opt .badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--coral);color:#fff;font-family:var(--font-display);font-weight:700;font-size:.76rem;padding:5px 16px;border-radius:999px;white-space:nowrap}
+  .opt .h{font-family:var(--font-display);font-weight:900;font-size:1.08rem;color:var(--pine);margin-bottom:6px}
+  .opt.pick .h{color:var(--coral)}
+  .opt .sub{font-size:.78rem;color:var(--ink-soft);margin-bottom:14px;font-weight:500}
+  .opt p.body{font-size:.9rem;color:var(--ink);line-height:1.8}
+  .third-desc{margin-top:24px;background:var(--sage);border-radius:var(--radius);padding:24px;text-align:center}
+  .third-desc p{max-width:700px;margin:0 auto;color:var(--pine);font-weight:500}
+  .caution{margin-top:18px;background:#FFF;border:1px solid rgba(184,72,12,.2);border-radius:var(--radius-sm);padding:15px 18px;display:flex;gap:11px;align-items:flex-start;max-width:760px;margin-left:auto;margin-right:auto}
+  .caution svg{width:18px;height:18px;color:var(--coral);flex:none;margin-top:3px}
+  .caution p{font-size:.84rem;color:var(--ink-soft);line-height:1.7}
+
+  .flow{background:var(--surface)}
+  .flow-steps{display:grid;gap:16px;margin-top:34px}
+  @media(min-width:780px){.flow-steps{grid-template-columns:repeat(4,1fr)}}
+  .step{background:var(--bg);border-radius:var(--radius);padding:24px 20px;border:1px solid rgba(184,72,12,.08)}
+  .step .num{font-family:var(--font-num);font-weight:900;font-size:1.4rem;color:var(--sage-deep);margin-bottom:6px}
+  .step h3{font-size:1.02rem;color:var(--pine);margin-bottom:8px;font-weight:700}
+  .step p{font-size:.86rem;color:var(--ink-soft);line-height:1.7}
+  .flow-note{margin-top:26px;background:var(--coral-soft);border-radius:var(--radius);padding:22px 24px;text-align:center}
+  .flow-note p{color:#a8533a;font-weight:500;max-width:700px;margin:0 auto;font-size:.94rem}
+  .flow-note b{color:#8c3f28;font-weight:700}
+
+  .gallery .ba-grid{display:grid;gap:16px;margin-top:34px}
+  @media(min-width:680px){.gallery .ba-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:980px){.gallery .ba-grid{grid-template-columns:repeat(3,1fr)}}
+  .ba-card{background:var(--surface);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow-soft)}
+  .ba-card .pair{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:relative}
+  .ba-card .cap{font-size:.8rem;color:var(--ink-soft);margin-top:11px;text-align:center;font-weight:500}
+  .ba-card .arrow{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff;border-radius:50%;width:30px;height:30px;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-soft);z-index:3;color:var(--coral);font-weight:900}
+  .gallery .disclaimer{margin-top:20px;text-align:center}
+
+  /* plug-and-play photo slots: drop a file at the given path and it auto-shows */
+  .photo-band{position:relative;margin-top:30px;border-radius:var(--radius);overflow:hidden;background:var(--sage);aspect-ratio:16/6;box-shadow:var(--shadow-soft)}
+  @media(max-width:680px){.photo-band{aspect-ratio:3/2}}
+  .photo-band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;display:block}
+  .photo-band .ph-label{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;color:var(--pine-soft);text-align:center;padding:16px}
+  .photo-band .ph-label svg{width:34px;height:34px;opacity:.5}
+  .photo-band .ph-label b{font-family:var(--font-display);font-weight:700;font-size:.9rem}
+  .photo-band .ph-label span{font-size:.74rem;opacity:.9;max-width:90%}
+
+  .voices{background:linear-gradient(180deg,#FFF1DD 0%, var(--sage) 100%)}
+  .voice-grid{display:grid;gap:16px;margin-top:34px}
+  @media(min-width:760px){.voice-grid{grid-template-columns:repeat(3,1fr)}}
+  .voice{background:var(--surface);border-radius:var(--radius);padding:26px 22px;box-shadow:var(--shadow-soft)}
+  .voice .qm{font-family:var(--font-display);font-weight:900;font-size:2.2rem;color:var(--sage-deep);line-height:1;margin-bottom:6px}
+  .voice p{font-size:.94rem;margin-bottom:14px}
+  .voice .who{font-size:.82rem;color:var(--pine-soft);font-weight:700;font-family:var(--font-display)}
+  .voice .stars{color:var(--coral);font-size:.85rem;letter-spacing:2px;margin-bottom:10px}
+  .voices .disclaimer{margin-top:22px;text-align:center}
+
+  .reasons .r-grid{display:grid;gap:16px;margin-top:34px}
+  @media(min-width:680px){.reasons .r-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:980px){.reasons .r-grid{grid-template-columns:repeat(4,1fr)}}
+  .reason{background:var(--surface);border-radius:var(--radius);padding:24px 20px;border:1px solid rgba(184,72,12,.09);text-align:center}
+  .reason .ic{width:52px;height:52px;border-radius:16px;background:var(--sage);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;color:var(--pine)}
+  .reason .ic svg{width:26px;height:26px}
+  .reason h3{font-size:1rem;color:var(--pine);margin-bottom:8px;font-weight:700}
+  .reason p{font-size:.84rem;color:var(--ink-soft);line-height:1.7}
+
+  .compare-wrap{margin-top:44px}
+  .compare-title{font-family:var(--font-display);font-weight:900;color:var(--pine);font-size:1.15rem;text-align:center;margin-bottom:6px}
+  .compare-sub{text-align:center;color:var(--ink-soft);font-size:.88rem;margin-bottom:22px}
+  .compare{overflow-x:auto;border-radius:var(--radius);box-shadow:var(--shadow-soft)}
+  table{width:100%;border-collapse:collapse;background:var(--surface);min-width:620px}
+  th,td{padding:15px 14px;text-align:center;font-size:.88rem;border-bottom:1px solid rgba(184,72,12,.1);vertical-align:top}
+  thead th{background:#9c3d0a;color:#fff;font-family:var(--font-display);font-weight:700;font-size:.9rem;line-height:1.4}
+  thead th.us{background:var(--coral)}
+  tbody th{text-align:left;font-weight:700;color:var(--ink);background:var(--bg);font-size:.86rem;white-space:nowrap}
+  td.us{background:var(--coral-soft);font-weight:600;color:#8c3f28}
+  /* mobile stacked version of the comparison */
+  .compare-cards{display:none}
+  @media(max-width:720px){
+    .compare{display:none}
+    .compare-cards{display:grid;gap:14px;margin-top:4px}
+  }
+  .ccard{background:var(--surface);border-radius:var(--radius);border:1px solid rgba(184,72,12,.12);overflow:hidden;box-shadow:var(--shadow-soft)}
+  .ccard.us{border:2px solid var(--coral)}
+  .ccard-h{font-family:var(--font-display);font-weight:900;color:#fff;background:#9c3d0a;padding:13px 16px;font-size:.98rem;line-height:1.4}
+  .ccard.us .ccard-h{background:var(--coral)}
+  .ccard dl{padding:2px 16px 8px;margin:0}
+  .ccard .crow{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px dashed rgba(184,72,12,.16)}
+  .ccard .crow:last-child{border-bottom:none}
+  .ccard dt{font-family:var(--font-display);font-weight:700;color:var(--pine);font-size:.8rem;flex:none;max-width:40%}
+  .ccard dd{font-size:.86rem;color:var(--ink);text-align:right;margin:0;line-height:1.6}
+  .ccard.us dd{color:#8c3f28;font-weight:600}
+  .compare-note{margin-top:14px;font-size:.74rem;color:var(--ink-soft);line-height:1.7;opacity:.9}
+  .takeaway{margin-top:20px;background:var(--sage);border-radius:var(--radius);padding:22px 24px;text-align:center}
+  .takeaway p{max-width:720px;margin:0 auto;color:var(--pine);font-weight:500;font-size:.96rem}
+
+  .pricing{background:var(--surface)}
+  .price-box{max-width:620px;margin:34px auto 0;background:var(--bg);border-radius:var(--radius);overflow:hidden;border:1px solid rgba(184,72,12,.1)}
+  .price-hero{background:var(--pine);color:#fff;text-align:center;padding:26px 20px}
+  .price-hero .small{font-family:var(--font-display);font-weight:700;font-size:.86rem;opacity:.9}
+  .price-hero .big{font-family:var(--font-num);font-weight:900;font-size:2.4rem;margin-top:4px}
+  .price-hero .big span{font-size:1.1rem}
+  .price-hero .tax{font-size:.74rem;opacity:.75;margin-top:4px}
+  .price-list{padding:10px 24px}
+  .price-list .row{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px dashed rgba(184,72,12,.18);font-size:.95rem}
+  .price-list .row:last-child{border-bottom:none}
+  .price-list .row .nm{font-weight:500}
+  .price-list .row .pr{font-family:var(--font-display);font-weight:700;color:var(--pine)}
+  .price-msg{text-align:center;margin-top:24px;font-family:var(--font-display);font-weight:700;color:var(--coral);font-size:1.02rem}
+
+  .access{background:linear-gradient(180deg,var(--sage) 0%, #FFF1DD 100%)}
+  .access-grid{display:grid;gap:24px;margin-top:30px}
+  @media(min-width:820px){.access-grid{grid-template-columns:1.05fr .95fr;align-items:start}}
+  .map-ph{aspect-ratio:16/12;border-radius:var(--radius);background:var(--surface);border:1px dashed rgba(184,72,12,.3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--pine-soft);box-shadow:var(--shadow-soft)}
+  .map-ph svg{width:40px;height:40px;opacity:.5}
+  .access-info dl{display:grid;gap:13px}
+  .access-info .item{background:var(--surface);border-radius:var(--radius-sm);padding:16px 18px;display:flex;gap:13px;align-items:flex-start}
+  .access-info .item svg{width:20px;height:20px;color:var(--coral);flex:none;margin-top:3px}
+  .access-info dt{font-family:var(--font-display);font-weight:700;color:var(--pine);font-size:.84rem;margin-bottom:3px}
+  .access-info dd{font-size:.9rem;color:var(--ink);line-height:1.7}
+
+  .faq{background:var(--surface)}
+  .faq-list{max-width:760px;margin:34px auto 0;display:grid;gap:12px}
+  .faq-item{background:var(--bg);border-radius:var(--radius-sm);border:1px solid rgba(184,72,12,.09);overflow:hidden}
+  .faq-q{width:100%;text-align:left;background:none;border:none;cursor:pointer;padding:18px 22px;display:flex;gap:14px;align-items:center;font-family:var(--font-display);font-weight:700;color:var(--pine);font-size:.98rem}
+  .faq-q .qico{flex:none;width:26px;height:26px;border-radius:8px;background:var(--sage);color:var(--pine);display:flex;align-items:center;justify-content:center;font-weight:900}
+  .faq-q .tog{margin-left:auto;flex:none;color:var(--coral);font-size:1.3rem;font-weight:900;transition:transform .25s ease}
+  .faq-item.open .tog{transform:rotate(45deg)}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .faq-a p{padding:0 22px 20px 62px;font-size:.92rem;color:var(--ink-soft);line-height:1.8}
+
+  .closing{background:var(--pine);color:#fff;text-align:center;position:relative;overflow:hidden}
+  .closing .blob{opacity:.2}
+  .closing .blob.x{width:300px;height:300px;background:var(--coral);top:-100px;right:-80px}
+  .closing .blob.y{width:260px;height:260px;background:var(--sage-deep);bottom:-90px;left:-70px}
+  .closing .wrap{position:relative;z-index:2}
+  .closing h2{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:900;margin-bottom:16px}
+  .closing p{max-width:560px;margin:0 auto 30px;opacity:.93;font-size:1rem}
+  .closing .btn-line{padding:18px 40px;font-size:1.12rem}
+  .closing .mini{margin-top:18px;font-size:.82rem;opacity:.72}
+
+  footer.site{background:#3D2410;color:rgba(255,255,255,.7);padding:30px 0;text-align:center;font-size:.82rem}
+  footer .brand{color:#fff;justify-content:center;margin-bottom:8px}
+  footer .fnote{margin-top:10px;font-size:.72rem;opacity:.6;max-width:620px;margin-left:auto;margin-right:auto;line-height:1.7}
+
+  .float-cta{position:fixed;z-index:90;right:20px;bottom:24px;opacity:0;transform:translateY(20px);pointer-events:none;transition:opacity .4s ease, transform .4s ease}
+  .float-cta.show{opacity:1;transform:translateY(0);pointer-events:auto}
+  .float-pill{position:relative;display:inline-flex;align-items:center;gap:11px;background:var(--line);color:#fff;text-decoration:none;font-family:var(--font-display);font-weight:700;font-size:1rem;padding:15px 24px 15px 20px;border-radius:999px;box-shadow:0 16px 34px -12px rgba(6,199,85,.75);animation:bob 3s ease-in-out infinite}
+  .float-pill .ico{width:24px;height:24px;flex:none}
+  .float-pill::before{content:"";position:absolute;inset:0;border-radius:999px;border:2px solid var(--line);opacity:.65;animation:ring 2.6s ease-out infinite;z-index:-1}
+  .float-pill .sub{display:block;font-size:.66rem;font-weight:500;opacity:.92;line-height:1.2;margin-top:1px}
+  .float-pill .txt{display:flex;flex-direction:column;line-height:1.2}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @keyframes ring{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.45);opacity:0}}
+  @media(max-width:560px){
+    .float-cta{right:12px;left:12px;bottom:12px}
+    .float-pill{width:100%;justify-content:center;padding:15px 18px;animation:bobm 3s ease-in-out infinite}
+    .float-pill .txt{flex-direction:row;align-items:baseline;gap:8px}
+    .float-pill .sub{margin-top:0}
+    @keyframes bobm{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+  }
+
+  /* mobile UI refinements */
+  @media(max-width:560px){
+    .wrap{padding:0 18px}
+    section{padding:54px 0}
+    .hero{padding:42px 0 60px}
+    .sec-title{line-height:1.52}
+    .hero h1{line-height:1.5;font-size:clamp(1.9rem,8vw,2.4rem)}
+    .lead,.hero p.sub{font-size:.96rem}
+    .photo-band{aspect-ratio:4/3}
+    body{padding-bottom:90px}
+    .ccard .crow{flex-direction:column;gap:5px}
+    .ccard dt{max-width:none;font-size:.78rem;opacity:.85}
+    .ccard dd{text-align:left;font-size:.92rem}
+    .pc-br{display:none}
+  }
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease, transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none !important;scroll-behavior:auto !important}
+    .reveal{opacity:1;transform:none;transition:none}
+    .float-cta{transition:none}
+  }
+  .btn-line:focus-visible,.faq-q:focus-visible,.float-pill:focus-visible{outline:3px solid var(--pine);outline-offset:3px}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>巻き爪ケア チャージ</div>
+    <a href="https://lin.ee/your-line-id" target="_blank" rel="noopener" class="btn-line sm nav-cta">
+      <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.6 7.4 8.5 8 .3.07.8.2.9.5.08.25.05.65.03.9l-.15.9c-.04.27-.2 1.05.92.57s6.06-3.57 8.27-6.11C21.5 13.3 22 11.8 22 10.2 22 5.7 17.5 2 12 2z"/></svg>
+      LINEで相談
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <span class="blob a"></span><span class="blob b"></span><span class="blob c"></span>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">切らない・痛みが少ない 巻き爪ケア</span>
+        <h1>その巻き爪、<br><span class="hl">切らずに</span>、少しずつ整える。</h1>
+        <p class="sub">「病院に行くほどじゃない。でも、ときどき気になる」——<br>そんな方へ。<b>切らない・痛みの少ないケア</b>という、もうひとつの選択肢があります。</p>
+        <a href="https://lin.ee/your-line-id" target="_blank" rel="noopener" class="btn-line">
+          <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.6 7.4 8.5 8 .3.07.8.2.9.5.08.25.05.65.03.9l-.15.9c-.04.27-.2 1.05.92.57s6.06-3.57 8.27-6.11C21.5 13.3 22 11.8 22 10.2 22 5.7 17.5 2 12 2z"/></svg>
+          LINEで相談・予約する
+        </a>
+        <span class="btn-sub">写真を送るだけ。ご相談・ご予約はLINEで完結します。</span>
+        <div class="trust-row">
+          <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg>吉祥寺駅 北口 徒歩5分</span>
+          <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg>切らない・痛みが少ない</span>
+          <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg>土日祝も営業</span>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="ba-label"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>ケア例（イメージ）</div>
+        <div class="ba-pair">
+          <div class="ba-img"><span class="ba-tag">Before</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div>
+          <div class="ba-img"><span class="ba-tag after">After</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div>
+        </div>
+        <div class="arrow">→</div>
+        <p class="note">※写真はケア例です。変化・効果、痛みの感じ方には個人差があります。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORRY -->
+<section class="worry">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow coral">こんな方へ</span>
+      <h2 class="sec-title">こんなお悩み、<span class="hl">ありませんか?</span></h2>
+      <p class="lead">ひとつでも当てはまったら、それは「軽いうちに整えるサイン」かもしれません。</p>
+    </div>
+    <div class="photo-band reveal">
+      <img src="images/nayami.jpg" alt="足元が気になる様子" onerror="this.style.display='none'">
+      <div class="ph-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><b>写真AC：「足元 サンダル 女性」など</b><span>images/nayami.jpg として保存すると、ここに自動で表示されます</span></div>
+    </div>
+    <div class="worry-list">
+      <div class="worry-item reveal"><span class="ck">✓</span><p>靴を履くと、ときどき指の端が気になる</p></div>
+      <div class="worry-item reveal"><span class="ck">✓</span><p>病院に行くほどじゃない気がして、つい後回しにしている</p></div>
+      <div class="worry-item reveal"><span class="ck">✓</span><p>「切る」「手術」と聞くと、やっぱり不安</p></div>
+      <div class="worry-item reveal"><span class="ck">✓</span><p>市販のセルフケアが、続かない・合うものが分からない</p></div>
+      <div class="worry-item reveal"><span class="ck">✓</span><p>気にならない日もあるから、なんとなくそのままにしている</p></div>
+      <div class="worry-item reveal"><span class="ck">✓</span><p>サンダルや素足になるのが、少し気になる</p></div>
+    </div>
+    <p class="worry-note reveal">その「なんとなく」を、ここで見直してみませんか。</p>
+  </div>
+</section>
+
+<!-- TIMING -->
+<section class="timing">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">そのままにする前に</span>
+      <h2 class="sec-title">「まだ大丈夫」が、<br><span class="hl">いちばん始めやすい</span>タイミングです</h2>
+      <p class="lead">気になる状態を長くそのままにしておくと、整えるのに時間がかかることもあります。軽いうちなら、通う回数も負担も少なくすみやすいもの。「気になった今」が、はじめどきです。</p>
+    </div>
+    <div class="stage-row">
+      <div class="stage s1 reveal"><div class="lvl">軽度</div><div class="bar"></div><p class="cost">通う回数 <b>少なめ</b><br>負担も <b>おさえやすい</b></p></div>
+      <div class="stage s2 reveal"><div class="lvl">中等度</div><div class="bar"></div><p class="cost">通う回数 <b>やや増える</b><br>期間も <b>長めに</b></p></div>
+      <div class="stage s3 reveal"><div class="lvl">重度</div><div class="bar"></div><p class="cost">通う回数 <b>多くなりやすい</b><br>まず <b>医療機関へ</b></p></div>
+    </div>
+    <div class="timing-cta">
+      <a href="https://lin.ee/your-line-id" target="_blank" rel="noopener" class="btn-line">
+        <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.6 7.4 8.5 8 .3.07.8.2.9.5.08.25.05.65.03.9l-.15.9c-.04.27-.2 1.05.92.57s6.06-3.57 8.27-6.11C21.5 13.3 22 11.8 22 10.2 22 5.7 17.5 2 12 2z"/></svg>
+        軽いうちに、まず相談する
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- THIRD OPTION -->
+<section class="third">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow coral">3つの選択肢</span>
+      <h2 class="sec-title">「切るケア」でも、「がまん」でもなく。<br><span class="hl">「整える」</span>という選択。</h2>
+      <p class="lead">巻き爪との向き合い方は、ひとつではありません。それぞれの違いを知って、自分に合う方法を選びましょう。</p>
+    </div>
+    <div class="opt-grid">
+      <div class="opt reveal">
+        <div class="h">病院（皮膚科・形成外科）</div>
+        <div class="sub">炎症や強い痛みがある方に</div>
+        <p class="body">医師が診察し、症状に応じてテーピングや、重い場合は手術などの医療を行います。健康保険が使える場合があります。</p>
+      </div>
+      <div class="opt reveal">
+        <div class="h">セルフケア</div>
+        <div class="sub">まず自分で試したい方に</div>
+        <p class="body">市販のグッズなどで、ご自身でケアする方法です。手軽な一方で、続けにくかったり、合うものを選びにくいこともあります。</p>
+      </div>
+      <div class="opt pick reveal">
+        <span class="badge">当サロンのケア</span>
+        <div class="h">切らない矯正ケア</div>
+        <div class="sub">軽度〜中等度で、切りたくない方に</div>
+        <p class="body">専用の器具で、爪に大きな負担をかけず少しずつ形を整えていく方法です。切る処置は行わず、施術中の痛みも少なめ。まず気軽に始めたい方へ。</p>
+      </div>
+    </div>
+    <div class="third-desc reveal">
+      <p>専用の矯正器具を使い、爪に大きな負担をかけずに、少しずつ整えていきます。切る処置は行いません。「切るのは不安」という方の、はじめやすい選択肢です。</p>
+    </div>
+    <div class="caution reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+      <p>炎症・化膿・強い痛みがある場合や、症状が重い場合は、まず医療機関（皮膚科・形成外科など）の受診をおすすめします。当サロンは、切らないケアを行う場所です。医療行為は行いません。</p>
+    </div>
+  </div>
+</section>
+
+<!-- FLOW -->
+<section class="flow">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">通い方</span>
+      <h2 class="sec-title">通って、少しずつ。<br>だから、<span class="hl">負担が少ない。</span></h2>
+      <p class="lead">一度で終わりではありません。けれど、それは無理に変えるのではなく、自然に整えていくということ。</p>
+    </div>
+    <div class="photo-band reveal">
+      <img src="images/care.jpg" alt="フットケアの様子" onerror="this.style.display='none'">
+      <div class="ph-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><b>写真AC：「フットケア サロン 施術」など</b><span>images/care.jpg として保存すると、ここに自動で表示されます</span></div>
+    </div>
+    <div class="flow-steps">
+      <div class="step reveal"><div class="num">01</div><h3>カウンセリング</h3><p>まずは状態を確認。LINEで写真を送っての事前相談もできます。</p></div>
+      <div class="step reveal"><div class="num">02</div><h3>器具の装着</h3><p>切らずに装着。痛みもほとんどなく、その日のうちに始められます。</p></div>
+      <div class="step reveal"><div class="num">03</div><h3>定期メンテナンス</h3><p>数週間ごとに通い、爪の形を少しずつ整えていきます。</p></div>
+      <div class="step reveal"><div class="num">04</div><h3>きれいな形へ</h3><p>無理なく、自然に。整った状態を保つためのケアもサポートします。</p></div>
+    </div>
+    <div class="flow-note reveal">
+      <p><b>通う目安：</b>状態によって異なりますが、軽い方ほど少ない回数・短い期間ですみやすい傾向です。<br>※変化や期間には個人差があります。まずは今の状態をご相談ください。</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow coral">ケア例</span>
+      <h2 class="sec-title">変化は、<span class="hl">写真で。</span></h2>
+      <p class="lead">これまでに数多くの方のケアをしてきました。あなたと同じくらいの段階の方も、たくさんいらっしゃいます。</p>
+    </div>
+    <div class="ba-grid">
+      <div class="ba-card reveal"><div class="pair"><div class="ba-img"><span class="ba-tag">Before</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div><div class="ba-img"><span class="ba-tag after">After</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div><div class="arrow">→</div></div><p class="cap">軽度のケア例</p></div>
+      <div class="ba-card reveal"><div class="pair"><div class="ba-img"><span class="ba-tag">Before</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div><div class="ba-img"><span class="ba-tag after">After</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div><div class="arrow">→</div></div><p class="cap">中等度のケア例</p></div>
+      <div class="ba-card reveal"><div class="pair"><div class="ba-img"><span class="ba-tag">Before</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div><div class="ba-img"><span class="ba-tag after">After</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><span>ケア写真</span></div><div class="arrow">→</div></div><p class="cap">軽度のケア例</p></div>
+    </div>
+    <p class="disclaimer">※掲載写真はご本人の同意を得たケア例です。変化・効果には個人差があり、結果を保証するものではありません。</p>
+  </div>
+</section>
+
+<!-- VOICES -->
+<section class="voices">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">お客様の声</span>
+      <h2 class="sec-title">「切るのは不安」という方も、<br><span class="hl">通われています。</span></h2>
+    </div>
+    <div class="voice-grid">
+      <div class="voice reveal"><div class="qm">“</div><div class="stars">★★★★★</div><p>手術はどうしても不安で、ずっとそのままにしていました。ここは切らないと聞いて来店。来てよかったです。</p><div class="who">30代・女性</div></div>
+      <div class="voice reveal"><div class="qm">“</div><div class="stars">★★★★★</div><p>駅から近くて、仕事帰りにも寄りやすいので続けられました。スタッフの方の対応も丁寧でした。</p><div class="who">40代・男性</div></div>
+      <div class="voice reveal"><div class="qm">“</div><div class="stars">★★★★★</div><p>「まだ軽いけれど見てもらえますか?」という相談にも、ていねいに対応してもらえて安心でした。</p><div class="who">20代・女性</div></div>
+    </div>
+    <p class="disclaimer">※お客様個人の感想です。効果・変化には個人差があり、内容を保証するものではありません。</p>
+  </div>
+</section>
+
+<!-- REASONS + COMPARE -->
+<section class="reasons">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow coral">選ばれる理由</span>
+      <h2 class="sec-title">巻き爪ケア チャージが<br><span class="hl">選ばれる理由</span></h2>
+    </div>
+    <div class="photo-band reveal">
+      <img src="images/salon.jpg" alt="店内の雰囲気" onerror="this.style.display='none'">
+      <div class="ph-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M3 17l5-4 4 3 3-2 6 4"/></svg><b>写真AC：「ネイルサロン 店内 おしゃれ」など</b><span>images/salon.jpg として保存すると、ここに自動で表示されます</span></div>
+    </div>
+    <div class="r-grid">
+      <div class="reason reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-9-9a5 5 0 019-3 5 5 0 019 3c-2 4.5-9 9-9 9z"/></svg></div><h3>切らない・痛みが少ない</h3><p>爪を切る処置はせず、施術中の痛みも少なめ。「切るのは不安」という方も、はじめやすい方法です。</p></div>
+      <div class="reason reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2-6.3-4.6L5.7 21l2.3-7.2-6-4.4h7.6z"/></svg></div><h3>豊富なケア実績</h3><p>軽度から幅広い状態に対応。お一人おひとりの状態に合わせてご提案します。</p></div>
+      <div class="reason reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5-7-10a7 7 0 1114 0c0 5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg></div><h3>吉祥寺駅 北口 徒歩5分</h3><p>路面店で、お仕事帰りにも。ご予約・ご相談はLINEで完結します。</p></div>
+      <div class="reason reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h4a1.5 1.5 0 010 3h-3a1.5 1.5 0 000 3h4.5"/></svg></div><h3>続けやすい価格</h3><p>路面店で運営し、続けやすい料金を心がけています。料金は事前にお伝えします。</p></div>
+    </div>
+
+    <div class="compare-wrap reveal">
+      <div class="compare-title">3つの選択肢を、くらべてみる</div>
+      <div class="compare-sub">同じ「巻き爪」でも、向き合い方で内容も費用も変わります。</div>
+      <div class="compare">
+        <table>
+          <thead>
+            <tr><th>　</th><th class="us">当サロン<br>（切らない矯正ケア）</th><th>病院<br>（皮膚科・形成外科）</th><th>他の民間サロン</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>主な方法</th><td class="us">専用器具で少しずつ整える</td><td>テーピング・ワイヤー・プレート、重症はフェノール法などの手術</td><td>プレートやワイヤーによる矯正</td></tr>
+            <tr><th>爪を切る・手術</th><td class="us">行わない</td><td>症状により手術を行う場合がある</td><td>行わないことが多い</td></tr>
+            <tr><th>施術中の痛み</th><td class="us">少なめ（切らないため）</td><td>手術の場合は麻酔を使用</td><td>方法により異なる</td></tr>
+            <tr><th>医師の診察</th><td class="us">不要（サロンケア）</td><td>必要（医療として実施）</td><td>不要</td></tr>
+            <tr><th>費用の目安</th><td class="us">¥〇,〇〇〇〜（自費）</td><td>手術は保険適用で1部位5,000円程度〜／自費の矯正は別途</td><td>自費・1本あたり概ね5,500〜8,800円程度〜</td></tr>
+            <tr><th>通いやすさ</th><td class="us">吉祥寺駅北口 徒歩5分・夜20時まで・土日祝も営業</td><td>診療時間内・予約制</td><td>店舗により異なる</td></tr>
+            <tr><th>予約・相談</th><td class="us">LINEで予約・相談OK</td><td>電話・WEB予約</td><td>店舗により異なる</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="compare-cards">
+        <div class="ccard us">
+          <div class="ccard-h">当サロン（切らない矯正ケア）</div>
+          <dl>
+            <div class="crow"><dt>主な方法</dt><dd>専用器具で少しずつ整える</dd></div>
+            <div class="crow"><dt>爪を切る・手術</dt><dd>行わない</dd></div>
+            <div class="crow"><dt>施術中の痛み</dt><dd>少なめ（切らないため）</dd></div>
+            <div class="crow"><dt>医師の診察</dt><dd>不要（サロンケア）</dd></div>
+            <div class="crow"><dt>費用の目安</dt><dd>¥〇,〇〇〇〜（自費）</dd></div>
+            <div class="crow"><dt>通いやすさ</dt><dd>吉祥寺駅北口 徒歩5分・夜20時まで・土日祝も営業</dd></div>
+            <div class="crow"><dt>予約・相談</dt><dd>LINEで予約・相談OK</dd></div>
+          </dl>
+        </div>
+        <div class="ccard">
+          <div class="ccard-h">病院（皮膚科・形成外科）</div>
+          <dl>
+            <div class="crow"><dt>主な方法</dt><dd>テーピング・ワイヤー・プレート、重症はフェノール法などの手術</dd></div>
+            <div class="crow"><dt>爪を切る・手術</dt><dd>症状により手術を行う場合がある</dd></div>
+            <div class="crow"><dt>施術中の痛み</dt><dd>手術の場合は麻酔を使用</dd></div>
+            <div class="crow"><dt>医師の診察</dt><dd>必要（医療として実施）</dd></div>
+            <div class="crow"><dt>費用の目安</dt><dd>手術は保険適用で1部位5,000円程度〜／自費の矯正は別途</dd></div>
+            <div class="crow"><dt>通いやすさ</dt><dd>診療時間内・予約制</dd></div>
+            <div class="crow"><dt>予約・相談</dt><dd>電話・WEB予約</dd></div>
+          </dl>
+        </div>
+        <div class="ccard">
+          <div class="ccard-h">他の民間サロン</div>
+          <dl>
+            <div class="crow"><dt>主な方法</dt><dd>プレートやワイヤーによる矯正</dd></div>
+            <div class="crow"><dt>爪を切る・手術</dt><dd>行わないことが多い</dd></div>
+            <div class="crow"><dt>施術中の痛み</dt><dd>方法により異なる</dd></div>
+            <div class="crow"><dt>医師の診察</dt><dd>不要</dd></div>
+            <div class="crow"><dt>費用の目安</dt><dd>自費・1本あたり概ね5,500〜8,800円程度〜</dd></div>
+            <div class="crow"><dt>通いやすさ</dt><dd>店舗により異なる</dd></div>
+            <div class="crow"><dt>予約・相談</dt><dd>店舗により異なる</dd></div>
+          </dl>
+        </div>
+      </div>
+      <p class="compare-note">※2026年6月時点で、公開情報をもとに当サロンが一般的な傾向をまとめたものです。治療・施術の内容や費用は、各医療機関・各店舗・症状により異なります。健康保険の適用可否は医療上の判断によります。最新・正確な情報は各院に直接ご確認ください。</p>
+      <div class="takeaway">
+        <p>炎症や強い痛み・重い症状がある場合は、まず病院へ。「軽度〜中等度で、できれば切らずに整えたい」という方には、サロンという選択肢があります。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">料金</span>
+      <h2 class="sec-title">わかりやすい、<span class="hl">明朗料金。</span></h2>
+      <p class="lead">追加で高額なご提案をすることはありません。料金はすべて事前にお伝えします。</p>
+    </div>
+    <div class="price-box reveal">
+      <div class="price-hero">
+        <div class="small">初回カウンセリング＋装着</div>
+        <div class="big">¥〇,〇〇〇<span>〜</span></div>
+        <div class="tax">（税込）※状態により異なります</div>
+      </div>
+      <div class="price-list">
+        <div class="row"><span class="nm">矯正ケア（1本あたり）</span><span class="pr">¥〇,〇〇〇〜</span></div>
+        <div class="row"><span class="nm">メンテナンス（1回）</span><span class="pr">¥〇,〇〇〇〜</span></div>
+        <div class="row"><span class="nm">フットケア（角質・たこ）</span><span class="pr">¥〇,〇〇〇〜</span></div>
+      </div>
+    </div>
+    <p class="price-msg reveal">軽いうちなら、少ない回数で。結果的に、負担も少なく。</p>
+  </div>
+</section>
+
+<!-- ACCESS -->
+<section class="access">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow coral">アクセス</span>
+      <h2 class="sec-title">吉祥寺駅から、<span class="hl">徒歩5分。</span></h2>
+      <p class="lead">通って整えるからこそ、通いやすさが大切。北口から徒歩5分の路面店です。</p>
+    </div>
+    <div class="access-grid">
+      <div class="map-ph reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3L3 6v15l6-3 6 3 6-3V3l-6 3-6-3z"/><path d="M9 3v15M15 6v15"/></svg><span>地図をここに設置（Googleマップ埋め込み）</span></div>
+      <div class="access-info">
+        <dl>
+          <div class="item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5-7-10a7 7 0 1114 0c0 5-7 10-7 10z"/><circle cx="12" cy="11" r="2.5"/></svg><div><dt>住所</dt><dd>〒180-0004　東京都武蔵野市吉祥寺本町一丁目11番31号 サンロード協和堂ビル 1階</dd></div></div>
+          <div class="item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6v12M9 6L3 9v12l6-3 6 3 6-3V6"/></svg><div><dt>アクセス</dt><dd>JR中央線／JR中央・総武線／京王井の頭線「吉祥寺」駅 北口より徒歩5分</dd></div></div>
+          <div class="item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><dt>営業時間</dt><dd>11:00〜20:00（平日・土日祝とも）</dd></div></div>
+          <div class="item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg><div><dt>お支払い</dt><dd>現金／クレジットカード／タッチ決済（交通系IC各種・楽天Edy・WAON）／QRコード決済（楽天ペイ・PayPay・メルペイ・auPAY・d払い）</dd></div></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">よくある質問</span>
+      <h2 class="sec-title">気になることに、<span class="hl">お答えします。</span></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-q"><span class="qico">Q</span>ケア中は痛いですか?<span class="tog">+</span></button><div class="faq-a"><p>切らない方法のため、施術中の痛みはほとんどなく、装着もほとんど痛みを感じずに行えます。感じ方には個人差がありますので、不安な方はまず状態をご相談ください。</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span class="qico">Q</span>何回くらい通えばいいですか?<span class="tog">+</span></button><div class="faq-a"><p>状態によって異なります。軽い方ほど少ない回数ですみやすい傾向です。カウンセリングで目安をお伝えします。※個人差があります。</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span class="qico">Q</span>また巻いてくることはありますか?<span class="tog">+</span></button><div class="faq-a"><p>爪の切り方や歩き方などによって、再びくい込みやすくなることもあります。整った状態を保つためのケア方法もお伝えしています。</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span class="qico">Q</span>軽い状態でも見てもらえますか?<span class="tog">+</span></button><div class="faq-a"><p>はい。むしろ軽いうちのほうが、少ない回数・負担で整えやすい傾向です。「これくらいで行っていいのかな」という段階こそ、ご相談ください。</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span class="qico">Q</span>炎症や強い痛みがある場合は?<span class="tog">+</span></button><div class="faq-a"><p>そうした場合は、まず医療機関（皮膚科・形成外科など）の受診をおすすめします。当サロンは切らないケアを行う場所で、医療行為は行いません。</p></div></div>
+      <div class="faq-item"><button class="faq-q"><span class="qico">Q</span>予約は必要ですか?<span class="tog">+</span></button><div class="faq-a"><p>ご予約をおすすめしています。LINEから空き状況の確認・ご予約・ご相談ができます。写真を送っての事前相談も可能です。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="closing">
+  <span class="blob x"></span><span class="blob y"></span>
+  <div class="wrap">
+    <h2>まずは、写真を送るだけ。</h2>
+    <p>「これってケアできる?」「何回くらい必要?」——気になることを、まずLINEで気軽にご相談ください。無料で、いまの状態を確認します。</p>
+    <a href="https://lin.ee/your-line-id" target="_blank" rel="noopener" class="btn-line">
+      <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.6 7.4 8.5 8 .3.07.8.2.9.5.08.25.05.65.03.9l-.15.9c-.04.27-.2 1.05.92.57s6.06-3.57 8.27-6.11C21.5 13.3 22 11.8 22 10.2 22 5.7 17.5 2 12 2z"/></svg>
+      LINEで相談・予約する
+    </a>
+    <p class="mini">友だち追加だけでもOK。しつこい連絡はいたしません。</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>巻き爪ケア チャージ</div>
+    <p>切らない 巻き爪ケア ／ 吉祥寺駅 北口 徒歩5分</p>
+    <p class="fnote">※当サロンのケアは医療行為ではありません。記載内容・写真は結果を保証するものではなく、効果には個人差があります。炎症・化膿・強い痛みなどがある場合は医療機関の受診をおすすめします。</p>
+    <p style="margin-top:8px;opacity:.5">© 巻き爪ケア チャージ</p>
+  </div>
+</footer>
+
+<div class="float-cta" id="floatCta">
+  <a href="https://lin.ee/your-line-id" target="_blank" rel="noopener" class="float-pill">
+    <svg class="ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 5.7 2 10.2c0 4 3.6 7.4 8.5 8 .3.07.8.2.9.5.08.25.05.65.03.9l-.15.9c-.04.27-.2 1.05.92.57s6.06-3.57 8.27-6.11C21.5 13.3 22 11.8 22 10.2 22 5.7 17.5 2 12 2z"/></svg>
+    <span class="txt">LINEで相談<span class="sub">写真を送るだけ</span></span>
+  </a>
+</div>
+
+<script>
+  var fc = document.getElementById('floatCta');
+  function onScroll(){
+    var y = window.scrollY;
+    var nearBottom = (window.innerHeight + y) > (document.body.offsetHeight - 150);
+    if(y > 320 && !nearBottom){ fc.classList.add('show'); } else { fc.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
+  onScroll();
+
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:.14, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  document.querySelectorAll('.faq-q').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = btn.parentElement, ans = item.querySelector('.faq-a');
+      var open = item.classList.toggle('open');
+      ans.style.maxHeight = open ? ans.scrollHeight + 'px' : '0px';
+    });
+  });
+</script>
+</body>
+</html>
